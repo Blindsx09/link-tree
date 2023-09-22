@@ -10,6 +10,7 @@ function toggleMode() {
     if(html.classList.contains('light')){
     //se tiver lightmode add imagem light
     img.setAttribute('src', './assets/Avatar-light.png')
+    
     img.setAttribute('alt', 'Foto de Fernando Cavalcante soorrindo com fundo escuro')
       
 } else{
